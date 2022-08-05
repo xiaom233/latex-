@@ -673,7 +673,7 @@
   \fancyhead[LO]{\class@hf@font \class@number{} 期}%
   \fancyhead[CO]{\class@hf@font \class@format@short@names ：\class@title}%
   \fancyhead[RO,LE]{\class@hf@font\thepage}%
-  \fancyhead[CE]{\class@hf@font 计算机学报}%
+  \fancyhead[CE]{\class@hf@font 超分学报}%
   \fancyhead[RE]{\class@hf@font \class@date@zh@year{\class@publish@date}}%
 }
 \pagestyle{plain}
@@ -709,8 +709,8 @@
   }%
   \fancyhead[C]{%
     \class@hf@font
-    计算机学报\\
-    CHINESE JOURNAL OF COMPUTERS%
+    X-PIXE超分学报\\
+    X-PIXEL JOURNAL OF SUPER-RESOLUTION%
   }%
   \fancyhead[R]{%
     \class@hf@font
@@ -788,7 +788,7 @@
     default = {TP391},
   },
   doi = {
-    default = {10.11897/SP.J.1016.01.\the\year.\class@five@digits\thepage},
+    default = {x-pixel-001},
   },
   received-date = {
     name = received@date,
@@ -807,7 +807,7 @@
     default = {\the\year-\two@digits{\month}-\two@digits{\day}},
   },
   volume = {
-    default = {43},
+    default = {1},
   },
   number = {
     default = {1},
